@@ -37,13 +37,11 @@ body {
     list-style: none;
 }
 .main-nav a {
-    float: right;
-    padding: 0 3px;
-    margin-top: 97px;
-    margin-right: 10px;
+    display: inline-block;
 }
 .main-nav {
     margin-right: 50px;
+    padding-top: 40px;
 }
 
 .title {
@@ -66,19 +64,26 @@ h1 {
     font-family: publicsans;
     font-size: 40px;
 }
-.col1 {
-    float: left;
-    width: 60%;
-    padding-right: 40px;
-}
-.col2 {
-    float: right;
-    width: 40%;
-}
+
 
 /* Media queries */
 @media (min-width: 740px) {
-
+    .col1 {
+        float: left;
+        width: 60%;
+        padding-right: 40px;
+    }
+    .col2 {
+        float: right;
+        width: 40%;
+    }
+    .main-nav a {
+        float: right;
+        padding: 0 3px;
+        margin-top: 40px;
+        margin-right: 10px;
+        display: block;
+    }
 }
 
 .clearfix::after {
