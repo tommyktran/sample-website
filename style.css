@@ -49,6 +49,7 @@ body {
 }
 .main-header {
     background-color: #ff4b5c;
+    margin-top: 30px;
 }
 p {
     color: #056674;
@@ -67,7 +68,7 @@ h1 {
 
 
 /* Media queries */
-@media (min-width: 740px) {
+@media (min-width: 770px) {
     .col1 {
         float: left;
         width: 60%;
@@ -77,12 +78,17 @@ h1 {
         float: right;
         width: 40%;
     }
-    .main-nav a {
+    .main-nav {
+        width: 360px;
+        height: 100px;
+        text-align: right;
         float: right;
+    }
+    .main-nav a {
+        float: left;
         padding: 0 3px;
         margin-top: 40px;
         margin-right: 10px;
-        display: block;
     }
 }
 
