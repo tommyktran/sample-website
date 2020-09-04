@@ -1,0 +1,88 @@
+/* Color palette
+ #e0ece4 - pastel blue
+ #ff4b5c - pinkish-red
+ #056674 - dark blue
+ #66bfbf - blue */
+
+ @font-face {
+    font-family: publicsans;
+    src: url(PublicSans-Bold.ttf);
+ }
+
+ * {
+     box-sizing: border-box;
+ }
+
+body {
+    background-color: #e0ece4;
+}
+.name {
+    color: #fff;
+    font-size: 50px;
+    padding: 7px 50px;
+    font-family: publicsans;
+}
+.subtitle {
+    color: #fff;
+    font-size: 20px;
+    margin-top: -37px;
+    padding: 0 0 15px 60px;
+    font-family: publicsans;
+}
+.main-nav, .main-nav a {
+    color: #fff;
+    font-family: publicsans;
+    font-size: 25px;
+    text-decoration: none;
+    list-style: none;
+}
+.main-nav a {
+    float: right;
+    padding: 0 3px;
+    margin-top: 97px;
+    margin-right: 10px;
+}
+.main-nav {
+    margin-right: 50px;
+}
+
+.title {
+    float: left;
+}
+.main-header {
+    background-color: #ff4b5c;
+}
+p {
+    color: #056674;
+    font-family: arial;
+    line-height: 25px;
+}
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+h1 {
+    color: #66bfbf;
+    font-family: publicsans;
+    font-size: 40px;
+}
+.col1 {
+    float: left;
+    width: 60%;
+    padding-right: 40px;
+}
+.col2 {
+    float: right;
+    width: 40%;
+}
+
+/* Media queries */
+@media (min-width: 740px) {
+
+}
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
