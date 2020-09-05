@@ -9,6 +9,11 @@
     src: url(PublicSans-Bold.ttf);
  }
 
+ @font-face {
+    font-family: ptsans;
+    src: url(PTSans-Regular.ttf);
+ }
+
  * {
      box-sizing: border-box;
  }
@@ -21,6 +26,7 @@ body {
     font-size: 50px;
     padding: 7px 50px;
     font-family: publicsans;
+    text-shadow: 3px 3px #454;
 }
 .subtitle {
     color: #fff;
@@ -53,8 +59,9 @@ body {
 }
 p {
     color: #056674;
-    font-family: arial;
-    line-height: 25px;
+    font-family: ptsans;
+    line-height: 30px;
+    font-size: 20px;
 }
 .wrapper {
     width: 80%;
